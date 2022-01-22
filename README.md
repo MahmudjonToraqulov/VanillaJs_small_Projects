@@ -1,1 +1,1 @@
-# My-second-project-in-GitHub
+# My VanillaJs projects which aren't made big
