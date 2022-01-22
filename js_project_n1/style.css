@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mainDiv {
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./img/landscape.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+}
+.form-box {
+  width: 17rem;
+  height: 25rem !important;
+  margin: 6rem auto;
+  padding: 0.45rem 0.63rem;
+  background: rgb(255, 255, 255);
+  position: relative;
+  overflow: hidden;
+}
+.btnBox {
+  width: 190px;
+  margin: 0.43rem auto;
+  padding: 0.1rem;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  position: relative;
+}
+.btnBox button {
+  outline: none;
+  border: none;
+  padding: 8px;
+  margin: 0 2px;
+  background: transparent;
+  font-weight: bold;
+  font-family: sans-serif;
+  cursor: pointer;
+  z-index: 12;
+}
+.helpDiv {
+  transition: 0.4s all ease;
+  width: 50%;
+  left: 0;
+  height: 100%;
+  position: absolute;
+  background-color: orange;
+  border-radius: 18px;
+}
+.imgBox {
+  width: 130px;
+  padding: 1.2rem;
+  margin: 0.43rem auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.imgBox .imgBox-img {
+  width: 27px;
+  cursor: pointer;
+}
+.form-group,
+.form-group-2 {
+  position: absolute;
+  width: 86%;
+  padding: 0.32rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  margin: 0.34rem auto;
+}
+.form-group {
+  left: 16px;
+  transition: 0.43s all ease;
+}
+.form-group-2 {
+  right: -270px;
+  transition: 0.43s all ease;
+}
+.inp {
+  width: 90%;
+  font-size: 1.03rem;
+  margin: 0.53rem 0;
+  box-sizing: border-box;
+  padding: 8px 2px;
+  outline: none;
+  border: none;
+  border-bottom: 1.2px solid rgb(139, 133, 133);
+  background-color: transparent;
+}
+.checkBox {
+  width: 90%;
+  margin: 0.23rem 0;
+  padding: 12px 2px;
+  font-size: 1.23rem;
+  display: flex;
+  align-items: center;
+}
+.checkBox input {
+  margin-right: 12px;
+}
+.checkBox label {
+  color: rgb(139, 133, 133);
+  user-select: none;
+}
+.subBtn {
+  margin: 12px auto;
+  padding: 6px 54px;
+  border-radius: 30px;
+  font-weight: bold;
+  outline: none;
+  border: none;
+  background-color: orange;
+}
+.right {
+  right: 0 !important;
+}
+.left {
+  left: 0 !important;
+}

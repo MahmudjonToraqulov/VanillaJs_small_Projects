@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Fruktur&family=Poppins:ital,wght@0,300;0,400;0,500;0,600;0,700;0,900;1,900&family=Roboto:wght@100;300;400;500;700&family=Zen+Antique&family=Zen+Kurenaido&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+
+#home {
+  width: 100vw;
+  height: 100vh;
+  background-color: crimson;
+  background: url("./img/magni.jpg") no-repeat center;
+  background-attachment: fixed;
+  background-size: cover;
+}
+#home .slider-wrapper {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  box-sizing: border-box !important;
+  border: 2px solid white;
+  background-color: rgba(0, 0, 0, 0.4);
+  transition: 0.4s ease left;
+}
+
+.right-30 {
+  right: 30px;
+}
+
+.left-30 {
+  left: 30px;
+}
+
+.right--100 {
+  right: -100% !important;
+}
+
+.right--200 {
+  right: -200% !important;
+}
+
+.left1-0 {
+  left: 0 !important;
+}
+
+/*# sourceMappingURL=style.css.map */
